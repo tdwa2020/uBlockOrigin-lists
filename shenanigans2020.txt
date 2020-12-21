@@ -1,0 +1,8 @@
+facebook.com##a[href^="/votinginformationcenter"]:upward(3):remove()
+facebook.com##div[data-pagelet^="LeftRail"] span:has-text(COVID-19):upward(li)
+instagram.com##article button:has(svg[aria-label^="Information"]):upward(1)
+instagram.com##main button:has-text(WHO):upward(5)
+twitter.com##article a[href^="/i/events/"]
+twitter.com##span:has-text(Know the facts):upward(2)
+youtube.com##ytd-clarification-renderer
+youtube.com##ytd-shelf-renderer
