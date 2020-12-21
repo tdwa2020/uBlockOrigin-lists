@@ -1,3 +1,8 @@
+! Title: 2020 Shenanigans Cosmetic Filter
+! Expires: 1 days (update frequency)
+! License: MIT
+! ---------- Generic Blocking Rules ----------
+
 facebook.com##a[href^="/votinginformationcenter"]:upward(3):remove()
 facebook.com##div[data-pagelet^="LeftRail"] span:has-text(COVID-19):upward(li)
 instagram.com##article button:has(svg[aria-label^="Information"]):upward(1)
